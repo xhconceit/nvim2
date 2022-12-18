@@ -1,0 +1,26 @@
+{
+    "Lua": {
+        "runtime.version": "LuaJIT",
+        "workspace.checkThirdParty": false
+    },
+    "Lua.diagnostics.disable": [
+        "unused-local",
+        "undefined-field",
+        "trailing-space",
+        "different-requires",
+        "duplicate-index",
+        "miss-sep-in-table",
+        "unused-function",
+        "miss-exp",
+        "miss-method",
+        "action-after-return",
+        "param-type-mismatch"
+    ],
+    "Lua.diagnostics.globals": [
+        "vim",
+        "cmp",
+        "tree",
+        "const",
+        "m"
+    ]
+}
